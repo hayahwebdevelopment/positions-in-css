@@ -1,0 +1,12 @@
+Q2. Difference between Relative and Absolute positioning:
+Relative Positioning
+a. Positioning Context: Positioned relative to its normal position in the document flow.
+b. Offset Properties: Uses top, right, bottom, and left properties to move the element from its original position.
+c. Document Flow: The space originally occupied by the element is preserved, and other elements are not affected.
+d. Use Case: Useful for making slight adjustments to an element’s position without disrupting the layout.
+
+Absolute Positioning
+a. Positioning Context: Positioned relative to the nearest positioned ancestor (an element with a position other than static). If no such ancestor exists, it is positioned relative to the initial containing block (usually the <html> element).
+b. Offset Properties: Uses top, right, bottom, and left properties to position the element.
+c. Document Flow: Removed from the normal document flow, meaning it does not affect the position of other elements and can overlap them.
+d. Use Case: Useful for creating complex layouts where elements need to be precisely placed without affecting other elements.
